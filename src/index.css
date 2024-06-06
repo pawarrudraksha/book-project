@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Protest+Riot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: "Inter";
+  font-weight: 100;
+}
+:root {
+  --primary-color: black;
+  --secondary-font-color: #a8a8a8;
+  --font-color: white;
+
+  --font-size-xsmall: 10px;
+  --font-size-small: 12px;
+  --font-size-medium: 14px;
+  --font-size-large: 15px;
+  --font-size-xlarge: 18px;
+  --font-size-xxlarge: 25px;
+  --font-size-xxxlarge: 30px;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 600;
+  --font-weight-bolder: 700;
+
+  --btn-color: rgb(54, 176, 54);
+  --card-border: 0.5px solid #272424;
+  /* --divider-border-1: 0.5px solid #393939;
+  --card-border: 1px solid #c9c9c9; */
+}
+
+::-webkit-scrollbar {
+  width: 0px !important;
+  height: 0px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,20 @@
+.homeBookContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: var(--card-border);
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.homeBookTitle,
+.homeBookEdition {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.homeBookTitle p:first-child,
+.homeBookEdition p:first-child {
+  font-weight: var(--font-weight-bold);
+}

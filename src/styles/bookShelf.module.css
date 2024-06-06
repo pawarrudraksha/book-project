@@ -1,0 +1,42 @@
+.bookShelfContainer {
+  padding: 10px 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.bookShelfHeader {
+  font-size: var(--font-size-xlarge);
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+}
+
+.bookShelfBooksWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.bookShelfBooks {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  width: 50%;
+  gap: 10px;
+}
+
+.bookShelfBookWrapper {
+  width: 200px;
+  height: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .bookShelfBooks {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
